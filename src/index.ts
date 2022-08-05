@@ -2,7 +2,10 @@
 // Callback
 export { useDebouncedCallback } from './useDebouncedCallback/useDebouncedCallback';
 export { useRafCallback } from './useRafCallback/useRafCallback';
-export { useThrottledCallback } from './useThrottledCallback/useThrottledCallback';
+export {
+  useThrottledCallback,
+  IThrottledFunction,
+} from './useThrottledCallback/useThrottledCallback';
 
 // Lifecycle
 export {
